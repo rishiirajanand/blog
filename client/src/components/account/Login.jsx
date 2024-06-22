@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 const Component = styled(Box)`
   width: 400px;
   margin: auto;
-  box-shadow: 5px 2px 5px 2px rgb(0 0 0/ 0.6);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 `;
 const Image = styled("img")({
   width: 100,
@@ -43,7 +43,7 @@ const SignupButton = styled(Button)`
   color: #2874f0;
   height: 48px;
   border-radius: 2px;
-  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 `;
 const Text = styled(Typography)`
   color: #878787;
